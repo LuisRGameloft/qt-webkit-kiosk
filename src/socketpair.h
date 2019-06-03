@@ -24,7 +24,7 @@ public:
 Q_SIGNALS:
     void sigData(QByteArray);
 
-private slots:
+public slots:
     void newConnection();
     void readServerData();
 
